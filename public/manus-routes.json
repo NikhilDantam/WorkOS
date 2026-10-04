@@ -1,0 +1,31 @@
+{
+  "routes": [
+    { "path": "/", "title": "WorkOS — Outcome Intelligence Platform" },
+    { "path": "/platform", "title": "Platform — WorkOS" },
+    { "path": "/outcomes", "title": "Outcomes — WorkOS" },
+    { "path": "/for-providers", "title": "For Providers — WorkOS" },
+    { "path": "/for-employers", "title": "For Employers — WorkOS" },
+    { "path": "/for-programmes", "title": "For Programmes — WorkOS" },
+    { "path": "/impact", "title": "Impact — WorkOS" },
+    { "path": "/security", "title": "Security — WorkOS" },
+    { "path": "/about", "title": "About — WorkOS" },
+    { "path": "/contact", "title": "Contact — WorkOS" },
+    { "path": "/app", "title": "Outcome Overview — WorkOS" },
+    { "path": "/app/overview", "title": "Outcome Overview — WorkOS" },
+    { "path": "/app/trainees", "title": "Trainees — WorkOS" },
+    { "path": "/app/trainees/:id", "title": "Trainee Outcome Profile — WorkOS" },
+    { "path": "/app/outcomes", "title": "Outcome Analytics — WorkOS" },
+    { "path": "/app/employers", "title": "Employers — WorkOS" },
+    { "path": "/app/verifications", "title": "Verification Queue — WorkOS" },
+    { "path": "/app/followups", "title": "Follow-up Center — WorkOS" },
+    { "path": "/app/skills", "title": "Skill Intelligence — WorkOS" },
+    { "path": "/app/courses", "title": "Course Intelligence — WorkOS" },
+    { "path": "/app/providers", "title": "Provider Impact — WorkOS" },
+    { "path": "/app/districts", "title": "District Intelligence — WorkOS" },
+    { "path": "/app/impact", "title": "Impact Dashboard — WorkOS" },
+    { "path": "/app/insights", "title": "Outcome Intelligence — WorkOS" },
+    { "path": "/app/interventions", "title": "Interventions — WorkOS" },
+    { "path": "/app/audit", "title": "Audit & Governance — WorkOS" },
+    { "path": "/app/settings", "title": "Settings — WorkOS" }
+  ]
+}
