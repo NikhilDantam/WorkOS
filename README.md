@@ -2,7 +2,7 @@
 
 A comprehensive outcome intelligence platform connecting training records to real-world livelihoods. WorkOS unifies trainee tracking, placement verification, 30/90/180-day retention analysis, wage progression, and domain-grounded AI intelligence into a single evidence-backed system.
 
-## 🚀 Features
+## Features
 
 - **Executive Outcome Dashboard**: High-level KPIs covering placement rates, verification health, retention milestones, and median wage progression.
 - **Trainee Directory & Lifecycle**: In-depth trainee profiles tracking credentials, placement status, salary, employer, and longitudinal retention checks.
@@ -10,7 +10,7 @@ A comprehensive outcome intelligence platform connecting training records to rea
 - **Employer Network Analytics**: Placement partner breakdown, hire distribution, and employer verification status.
 - **Evidence-Backed Verification**: Audit trails for wage slips, employment confirmations, and retention reports.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Lucide Icons, Recharts
 - **Backend**: FastAPI, Uvicorn, Pydantic, HTTPX, Python 3.10+
@@ -18,7 +18,7 @@ A comprehensive outcome intelligence platform connecting training records to rea
 
 ---
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -70,8 +70,3 @@ pnpm run dev
 The frontend will be available at [http://localhost:3000](http://localhost:3000) and proxies `/api` calls directly to the FastAPI server on port 8000.
 
 ---
-
-## 🔒 Security & Privacy
-
-- Environment variables containing API keys, database credentials, or service keys are excluded via `.gitignore`.
-- Always configure `.env` locally using `.env.example` as a template.
