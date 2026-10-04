@@ -1895,7 +1895,9 @@ I can evaluate:
 
     try {
       const apiMessages = updated.map((m) => ({ role: m.role, content: m.content }))
-      const resp = await fetch('/api/chat', {
+      // Uses VITE_API_BASE_URL in production; falls back to the relative URL for local dev.
+      const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
+      const resp = await fetch(`${apiBaseUrl}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: apiMessages }),
